@@ -1,28 +1,5 @@
-== README
+== Last Social Publisher
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+[ ![Codeship Status for sergio-fry/last_social_publisher](https://codeship.com/projects/3f615ab0-a11e-0133-bcbb-02e3d0645add/status?branch=master)](https://codeship.com/projects/128415)
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Social Media crossposting service.

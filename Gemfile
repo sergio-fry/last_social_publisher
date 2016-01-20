@@ -51,5 +51,7 @@ group :development do
   gem 'spring'
   gem 'database_cleaner'
   gem 'shoulda-matchers'
+  gem 'guard-rspec'
 end
+
 

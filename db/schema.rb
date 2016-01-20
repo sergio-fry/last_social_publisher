@@ -11,7 +11,15 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160119182757) do
+ActiveRecord::Schema.define(version: 20160120071115) do
+
+  create_table "channels", force: :cascade do |t|
+    t.string   "title"
+    t.string   "publisher_klass"
+    t.text     "credentials"
+    t.datetime "created_at",      null: false
+    t.datetime "updated_at",      null: false
+  end
 
   create_table "postings", force: :cascade do |t|
     t.string   "publisher_klass"

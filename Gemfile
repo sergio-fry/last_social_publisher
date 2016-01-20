@@ -30,6 +30,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 gem 'pg'
+gem 'simple_form'
+gem 'bootstrap-sass', '~> 3.3.6'
 
 group :development, :test do
   # Call 'debugger' anywhere in the code to stop execution and get a debugger console

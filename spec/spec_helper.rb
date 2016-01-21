@@ -20,13 +20,11 @@ require 'database_cleaner'
 
 RSpec.configure do |config|
   config.before(:suite) do
-    begin
-      DatabaseCleaner.strategy = :transaction
-      DatabaseCleaner.clean_with(:truncation)
+    DatabaseCleaner.strategy = :transaction
+    DatabaseCleaner.clean_with(:truncation)
+
+    DatabaseCleaner.cleaning do
       FactoryGirl.lint
-    ensure
-      DatabaseCleaner.clean
-      Channel.delete_all
     end
   end
 

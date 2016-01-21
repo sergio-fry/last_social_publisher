@@ -26,6 +26,7 @@ RSpec.configure do |config|
       FactoryGirl.lint
     ensure
       DatabaseCleaner.clean
+      Channel.delete_all
     end
   end
 
